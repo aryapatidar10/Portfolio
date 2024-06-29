@@ -1,0 +1,51 @@
+{
+    "skills": [
+      {
+        "id": "1",
+        "src": "./img/product-chain-1.png",
+        "title": "Front-End",
+        "description": "Front-end is the visual part of websites or apps that users interact with directly. It involves HTML, CSS, and JavaScript to create a user-friendly experience."
+      },
+      {
+        "id": "2",
+        "src": "./img/tag-1.png",
+        "title": "Back-End",
+        "description": "Backend powers the server-side of websites, managing data and executing business logic with languages like Python , Node.js or Express.js ."
+      },
+      {
+        "id": "3",
+        "src": "./img/feather-pen-2.png",
+        "title": "MERN Stack",
+        "description": "MERN stack is a full-stack JavaScript framework, combining MongoDB, Express.js, React, and Node.js. It enables end-to-end development."
+      },
+      {
+        "id": "4",
+        "src": "./img/feather-pen-1.png",
+        "title": "Webflow",
+        "description": "a web design and development platform that allows users to design, build, and launch responsive websites visually without writing any code."
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.png",
+        "title": "ARE : Arya Real Estate",
+        "description": "Designed and developed a real estate website using HTML, CSS, and the Bootstrap framework. This project showcases my skills in creating responsive and visually appealing web applications. Discover your dream property effortlessly!",
+        "link": "https://github.com/aryapatidar10/Real-Estate"
+      },
+      {
+        "id": "2",
+        "src": "./img/image_2.png",
+        "title": "Personal-Portfolio",
+        "description": "Hey there! I'm Arya, and this is my digital playground. Explore who I am and what I do. From my skills to standout projects, it's all here. Let's chat—whether you've got a project in mind or just want to say hi, head over to the 'Contact Me' section. Excited to connect!",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "./img/image_2.png",
+        "title": "Personal-Portfolio",
+        "description": "Hey there! I'm Arya, and this is my digital playground. Explore who I am and what I do. From my skills to standout projects, it's all here. Let's chat—whether you've got a project in mind or just want to say hi, head over to the 'Contact Me' section. Excited to connect!",
+        "link": "View In Github"
+      }
+    ]
+  }
