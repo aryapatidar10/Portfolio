@@ -154,19 +154,27 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 10px 85.333px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
+.navbar--items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust as needed for spacing */
+}
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
-  align-items: flex-start;
-  gap: 42.667px;
+  align-items: center;
+  gap: 40px;
   text-decoration: none;
 }
 .navbar--items ul > li > a {
@@ -178,7 +186,7 @@ h2 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 0px;
   cursor: pointer;
 }
 .navbar--active-content {
@@ -190,7 +198,9 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 100px 85px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -213,17 +223,18 @@ h2 {
 }
 .hero--section--title {
   color: var(--heading-color);
-  font-size: 74.667px;
+  font-size: 70.667px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
 }
 .hero--section--title--color {
+  /* font-size: 50px; */
   color: var(--primary);
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 36px;
 }
@@ -239,11 +250,12 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 150px 85.33px;
+  padding-top: 120px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  gap: 50px;
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -311,6 +323,7 @@ h2 {
 .about--section {
   display: grid;
   padding: 133.3px 85.3px;
+  padding-top: 20px;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
@@ -325,6 +338,7 @@ h2 {
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
+  padding-top: 70px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -630,7 +644,6 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .skills--section,
-  .testimonial--section,
   .contact--section,
   .footer--container {
     gap: 20px;
@@ -692,6 +705,18 @@ input[type="checkbox"] {
   background-color: #000000;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
+}
+/* Default styles */
+.text-base {
+  /* Default text size */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 1024px) {
+  .text-base {
+    /* Decrease text size for split screen */
+    font-size: 0.875rem; /* Adjust as needed */
+  }
 }
 
 @media screen and (max-width: 1200px) {

@@ -7,7 +7,7 @@ export default function AboutMe() {
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <h2 className="skills-section--heading">About Me</h2>
           <p className="hero--section-description">
           I'm a pre-final year web developer with expertise in HTML, CSS, Bootstrap, JavaScript, and SQL. Passionate about creating user-friendly and responsive websites.
           </p>

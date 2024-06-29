@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import ".//../../App.css";
 
 function Nav() {
   const [navActive, setNavActive] = useState(false);
@@ -103,6 +104,15 @@ function Nav() {
               Portfolio
             </Link>
           </li>
+          <li>
+             <a
+              onClick={closeMenu}
+              href="https://drive.google.com/file/d/1CzAuVJKS43QZ65zwCJvPdhzoKgsX_Jrb/view?usp=drive_link"
+              className="navbar--content"
+            >
+              Resume
+             </a>
+           </li>
         </ul>
       </div>
       <Link

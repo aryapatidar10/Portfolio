@@ -7,14 +7,15 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Arya</p>
-          <h1 className="hero--section--title">
+          <h3 className="hero--section--title">
             <span className="hero--section-title--color">Full Stack</span> <br />
             Developer
-          </h1>
+          </h3>
           <p className="hero--section-description">
             I'm a pre-final year web developer with expertise in HTML, CSS, Bootstrap, JavaScript, and SQL, React.
             Passionate about creating user-friendly and responsive websites.
           </p>
+          <p> &nbsp;</p>
         </div>
         <Link
           to="Contact"

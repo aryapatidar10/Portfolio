@@ -38,14 +38,14 @@
         "src": "./img/image_2.png",
         "title": "Personal-Portfolio",
         "description": "Hey there! I'm Arya, and this is my digital playground. Explore who I am and what I do. From my skills to standout projects, it's all here. Let's chat—whether you've got a project in mind or just want to say hi, head over to the 'Contact Me' section. Excited to connect!",
-        "link": "View In Github"
+        "link": "https://github.com/aryapatidar10/Portfolio"
       },
       {
         "id": "3",
-        "src": "./img/image_2.png",
-        "title": "Personal-Portfolio",
+        "src": "./img/image_3.png",
+        "title": "Book-Store-App",
         "description": "Hey there! I'm Arya, and this is my digital playground. Explore who I am and what I do. From my skills to standout projects, it's all here. Let's chat—whether you've got a project in mind or just want to say hi, head over to the 'Contact Me' section. Excited to connect!",
-        "link": "View In Github"
+        "link": "https://github.com/aryapatidar10/ReadStoreApp"
       }
     ]
   }
