@@ -107,7 +107,7 @@ function Nav() {
           <li>
              <a
               onClick={closeMenu}
-              href="https://drive.google.com/file/d/128LzPetQOEmVO8y53GiNRjWve5m2w4kO/view?usp=sharing"
+              href="https://drive.google.com/file/d/128LzPetQOEmVO8y53GiNRjWve5m2w4kO/view?usp=drive_link"
               className="navbar--content"
             >
               Resume
